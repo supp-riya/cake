@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "pug": "^3.0.3",
+    "stylus": "^0.54.8",
+    "tailwindcss": "^4.1.12"
+  },
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:html": "npx pug index.pug --out.",
+    "build:css": "npx stylus style.stylus --out.",
+    "build": "npm run build:html && npm run build:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
